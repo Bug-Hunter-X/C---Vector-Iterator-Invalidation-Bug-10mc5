@@ -1,0 +1,1 @@
+std::vector<int> vec; for (int i = 0; i < 10; ++i) { vec.push_back(i); } std::vector<int> doubledVec; for (int x : vec) { doubledVec.push_back(x * 2); } for (int x : doubledVec) { std::cout << x << " "; }
